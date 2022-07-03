@@ -1,0 +1,154 @@
+
+body{
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+/* title */
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 12px;
+  text-align: left;
+}
+#title .container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 13%;
+}
+.Big-Title{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+
+}
+
+.title-image {
+  position: absolute;
+  transform: rotate(20deg);
+  width: 60%;
+  right: 100px;
+  padding-top: 1%;
+}
+/* navbar */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat' sans-serif;
+}
+
+.brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.features-tittle{
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.featuresi {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+  font-family: "Montserrat";
+
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:  15px 15px 0 0;
+
+}
+/* princing section */
+.princing-text{
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.card{
+  padding: 20px;
+}
+
+.image-text{
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+.press{
+  background-color: #ef8172;
+}
+.press-text{
+  width: 20%;
+  margin: 20px;
+}
+/* medias querry */
+@media (max-width:1000px)  {
+  #title {
+    text-align: center;
+  }
+
+  .title-image{
+    transform: rotate(0);
+    position: static;
+
+  }
+}
+/* fotter */
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+.h3cta{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+.icon-download{
+  margin-right:5px;
+}
+.btndownload {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.icon-footer{
+  margin: 80px 10px 20px 10px;
+}
